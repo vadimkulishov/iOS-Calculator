@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+    .numbers_and_operation {
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    input {
+        width: 80px;
+        height: 80px;
+        font-size: 32px;
+    }
+
+    .panel {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .panel p {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .numbers_and_operation {
+        margin-left: 10%;
+    }
+
+    input {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .panel p {
+        font-size: 36px;
+    }
+}

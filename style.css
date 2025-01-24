@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: black;
+}
+
+input {
+    border: none;
+    background-color: gray;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 44px;
+    background-color: #2a2a2c;
+}
+
+input:hover {
+    background-color: #727272;
+}
+
+td {
+    padding: 5px;
+}
+
+.numbers_and_operation {
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+.operation {
+    background-color: #5c5b60;
+}
+
+.operation:hover {
+    background-color: #8c8c8c;
+}
+
+.operation_math {
+    background-color: #ff9f0a;
+}
+
+.operation_math:hover {
+    background-color: #fbc78d;
+}
+
+.panel {
+    align-items: center;
+    height: 70px;
+    margin-left: 58%;
+    margin-top: 10%;
+}
+
+.panel p {
+    color: #ffffff;
+    font-size: 87px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: left; /* Выровнять текст по левому краю */
+    overflow: hidden; /* Убрать прокрутку */
+    white-space: nowrap; /* Запретить перенос текста */
+}

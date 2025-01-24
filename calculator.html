@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iOS - Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="panel">
+            <p class="result">0</p>
+        </div>
+        <div class="numbers_and_operation">
+            <table>
+                <tr>
+                    <td><input onclick="clearDisplay()" type="button" value="AC" class="operation"></td>
+                    <td><input type="button" value="+/-" class="operation"></td>
+                    <td><input type="button" value="%" class="operation"></td>
+                    <td><input type="button" value="÷" class="operation_math"></td>
+                </tr>
+                <tr>
+                    <td><input onclick="appendNumber(7)" type="button" value="7"></td>
+                    <td><input onclick="appendNumber(8)" type="button" value="8"></td>
+                    <td><input onclick="appendNumber(9)" type="button" value="9"></td>
+                    <td><input type="button" value="×" class="operation_math"></td>
+                </tr>
+                <tr>
+                    <td><input onclick="appendNumber(4)" type="button" value="4"></td>
+                    <td><input onclick="appendNumber(5)" type="button" value="5"></td>
+                    <td><input onclick="appendNumber(6)" type="button" value="6"></td>
+                    <td><input type="button" value="-" class="operation_math"></td>
+                </tr>
+                <tr>
+                    <td><input onclick="appendNumber(1)" type="button" value="1"></td>
+                    <td><input onclick="appendNumber(2)" type="button" value="2"></td>
+                    <td><input onclick="appendNumber(3)" type="button" value="3"></td>
+                    <td><input type="button" value="+" class="operation_math"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input onclick="appendNumber(0)" type="button" value="0" style="width: 250px; border-radius: 120px;"></td>
+                    <td><input onclick="appendDroub(',')" type="button" value=","></td>
+                    <td><input type="button" value="=" class="operation_math"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
